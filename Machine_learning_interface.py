@@ -23,8 +23,8 @@ def preprocess_input(data, label_encoders):
 
 # Streamlit app layout
 def main():
-    st.title("Clothing Recommendation Prediction")
-    st.write("This app predicts whether a clothing item will be **recommended** or **not recommended** based on its features.")
+    st.title("Dress Recommendation Prediction")
+    st.write("This app predicts whether a dress item will be **recommended** or **not recommended** based on its features.")
 
     # Load model and encoders
     model, label_encoders = load_model_and_encoders()
